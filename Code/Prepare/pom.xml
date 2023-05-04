@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <!--    <tomcat.version>9.0.45</tomcat.version>
+    <jetty.version>10.0.2</jetty.version>
+     -->
+    <tomcat.version>10.0.5</tomcat.version>
+    <jetty.version>11.0.2</jetty.version>
+
+  </properties>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>de.fraunhofer.sit</groupId>
+  <artifactId>Prepare</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>Prepare</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/ca.mcgill.sable/soot -->
+    <dependency>
+      <groupId>ca.mcgill.sable</groupId>
+      <artifactId>soot</artifactId>
+      <version>4.1.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>3.1.0</version>
+      <scope>provided</scope>
+    </dependency>
+
+  </dependencies>
+</project>

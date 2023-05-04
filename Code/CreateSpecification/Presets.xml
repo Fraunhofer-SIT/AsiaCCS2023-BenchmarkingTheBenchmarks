@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Specification>
+  <Presets>
+      <Preset name="Run">
+          <RunAttackerCapability>
+            <ApplicationUnderTest/>
+          </RunAttackerCapability>
+      </Preset>
+      <Preset name="ControlSpecificURL">
+          <NetworkAttackerCapability>
+            <Endpoint host="host.example.org" port="3954" type="listenOrModify"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ControlSpecificURL2">
+          <NetworkAttackerCapability>
+            <Endpoint host="www.example.org" port="80" protocol="http" type="listenOrModify"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ControlSpecificURL3">
+          <NetworkAttackerCapability>
+            <Endpoint host="123.123.123.123" port="80" protocol="http" type="listenOrModify"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ControlSpecificURL4">
+          <NetworkAttackerCapability>
+            <Endpoint host="remote_host" port="1337" type="listenOrModify"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ConnectToPort30000">
+          <NetworkAttackerCapability>
+            <Endpoint host="*Host*" port="30000" type="connect"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ConnectToPort20000">
+          <NetworkAttackerCapability>
+            <Endpoint host="*Host*" port="20000" type="connect"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      
+      <Preset name="ControlStdIn">
+          <AttackerCapability>
+          	<Resource type="stdin" controlLevel="write"/>
+          </AttackerCapability>
+      </Preset>
+      <Preset name="ControlDatabase">
+          <DatabaseAttackerCapability>
+          	<Database controlLevel="insert,alter" table="users" column="name" constraint="id=0" />
+          </DatabaseAttackerCapability>
+      </Preset>
+      <Preset name="ControlFileData">
+          <FileAttackerCapability>
+          	<File controlLevel="write" filename="C:\\data.txt" />
+          </FileAttackerCapability>
+      </Preset>
+      <Preset name="ControlTestDLL">
+          <FileAttackerCapability>
+          	<File controlLevel="write" filename="test.dll" />
+          </FileAttackerCapability>
+      </Preset>
+      <Preset name="ControlConfigFile">
+          <FileAttackerCapability>
+          	<File controlLevel="write" filename="../common/config.properties" />
+          </FileAttackerCapability>
+      </Preset>
+      <Preset name="ServletAccessBase">
+          <NetworkAttackerCapability>
+	          <Endpoint host="*Host*" port="*Port*" type="connect"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ConnectPort39543">
+          <NetworkAttackerCapability>
+	          <Endpoint host="*Host*" port="39543" type="connect"/>
+          </NetworkAttackerCapability>
+      </Preset>
+      <Preset name="ControlUserHome">
+          <EnvironmentAttackerCapability>
+          	<Property controlLevel="alter" name="user.home" />
+          </EnvironmentAttackerCapability>
+      </Preset>
+      <Preset name="ControlEnvADD">
+          <EnvironmentAttackerCapability>
+          	<EnvironmentVariable controlLevel="alter" name="ADD" />;
+          </EnvironmentAttackerCapability>
+      </Preset>
+
+  </Presets>
+</Specification>
+

@@ -1,0 +1,188 @@
+OWASP;22;false;false;;Not exploitable by design (OWASP);135
+OWASP;22;true;true;Jetty=false Tomcat=false Winstone=true ;null;132
+OWASP;22;true;false;Tomcat=false Winstone=false ;null;1
+OWASP;78;false;false;;Not exploitable by design (OWASP);82
+OWASP;78;false;false;;Not exploitable on linux. input is passed as argument to shell script, but not evaluated.;76
+OWASP;78;true;true;Jetty=false Tomcat=false Winstone=true ;null;87
+OWASP;78;true;true;Jetty=true Tomcat=false Winstone=true ;null;6
+OWASP;79;false;false;;Not exploitable by design (OWASP);209
+OWASP;79;true;true;Jetty=false Tomcat=false Winstone=true ;null;226
+OWASP;79;true;true;Jetty=true Tomcat=false Winstone=true ;null;20
+OWASP;89;false;false;;Exploit not verifiable for batchUpdate and executeBatch. no output is available. drop table can not be injected (java.sql.BatchUpdateException: unexpected token: DROP);62
+OWASP;89;false;false;;Not exploitable by design (OWASP);199
+OWASP;89;false;false;;org.springframework.dao.IncorrectResultSizeDataAccessException. program tries to assign 4 values to one var.;1
+OWASP;89;false;false;;sql not exploitable;2
+OWASP;89;false;false;;weak hash;1
+OWASP;89;false;false;;weak randomness;1
+OWASP;89;true;true;Jetty=false Tomcat=false Winstone=true ;null;221
+OWASP;89;true;true;Jetty=true Tomcat=false Winstone=true ;null;18
+OWASP;90;false;false;;Not exploitable by design (OWASP);32
+OWASP;90;true;true;Jetty=false Tomcat=false Winstone=true ;null;27
+OWASP;327;false;false;;Encrypts hard-coded information available in the app;246
+OWASP;328;false;false;;weak hash;236
+OWASP;330;false;false;;weak randomness;493
+OWASP;501;false;false;;sets server-side session attribute: not dynamically verifiable;126
+OWASP;614;false;false;;insecure cookie not verifiable;67
+OWASP;643;false;false;;Broken testcase - Retrieved values not used at all.;35
+juliet;15;false;false;;Broken testcase - Nothing happens with the connection;444
+juliet;23;false;false;;not deterministically exploitable: uses random function;12
+juliet;23;true;true;MethodExec=true ;null;324
+juliet;23;true;true;Jetty=false Tomcat=false Winstone=true ;null;94
+juliet;23;true;true;Jetty=true Tomcat=false Winstone=true ;null;14
+juliet;36;false;false;;not deterministically exploitable: uses random function;12
+juliet;36;true;true;MethodExec=true ;null;324
+juliet;36;true;true;Jetty=false Tomcat=false Winstone=true ;null;80
+juliet;36;true;true;Jetty=true Tomcat=false Winstone=true ;null;28
+juliet;78;false;false;;not exploitable on linux;442
+juliet;80;false;false;;not deterministically exploitable: uses random function;18
+juliet;80;true;true;Jetty=true Tomcat=false Winstone=true ;null;117
+juliet;80;true;true;Jetty=false Tomcat=false Winstone=true ;null;531
+juliet;81;false;false;;not deterministically exploitable: uses random function;9
+juliet;81;true;true;Jetty=false Tomcat=false Winstone=true ;null;324
+juliet;83;false;false;;not deterministically exploitable: uses random function;9
+juliet;83;true;true;Jetty=false Tomcat=false Winstone=true ;null;295
+juliet;83;true;true;Jetty=true Tomcat=false Winstone=true ;null;29
+juliet;89;false;false;;insert into where is not a valid sql statement;888
+juliet;89;false;false;;not deterministically exploitable: uses random function;24
+juliet;89;true;true;MethodExec=true ;null;648
+juliet;89;true;true;Jetty=false Tomcat=false Winstone=true ;null;195
+juliet;89;true;true;Jetty=true Tomcat=false Winstone=true ;null;21
+juliet;90;false;false;;not deterministically exploitable: uses random function;12
+juliet;90;true;true;MethodExec=true ;null;324
+juliet;90;true;true;Jetty=false Tomcat=false Winstone=true ;null;108
+juliet;111;true;true;MethodExec=true ;null;1
+juliet;113;false;false;;not deterministically exploitable: uses random function;27
+juliet;113;true;true;Jetty=false Tomcat=false Winstone=true ;null;648
+juliet;114;false;false;;not deterministically exploitable: uses random function;1
+juliet;114;true;true;MethodExec=true ;null;16
+juliet;129;false;false;;Code quality issue;2664
+juliet;134;false;false;;Broken testcase - Broken due to good-method closing System.in ;666
+juliet;190;false;false;;Broken testcase - Not a security issue in this test case;4255
+juliet;191;false;false;;Broken testcase - Not a security issue in this test case;3404
+juliet;193;false;false;;Code quality issue - Not a security issue in Java;51
+juliet;197;false;false;;Broken testcase - Not a security issue in this test case;1221
+juliet;209;false;false;;not deterministically exploitable: uses random function;2
+juliet;209;true;true;Jetty=true Tomcat=true Winstone=true ;null;16
+juliet;209;true;true;MethodExec=true ;null;16
+juliet;226;false;false;;Broken testcase - Both the fixed and unfixed version store the password in Strings, which cannot be cleared.;17
+juliet;248;false;false;;Code quality issue;1
+juliet;252;false;false;;Code quality issue;17
+juliet;253;false;false;;Code quality issue;17
+juliet;256;false;false;;Broken testcase - The fix for using a plain text password is decrypting using a hard-coded password according to the test cases.;37
+juliet;259;false;false;;hard coded password not dynamically verifiable;111
+juliet;315;false;false;;not deterministically exploitable: uses random function;1
+juliet;315;true;true;Jetty=false Tomcat=false Winstone=true ;null;32
+juliet;315;true;true;Jetty=true Tomcat=false Winstone=true ;null;4
+juliet;319;false;false;;not deterministically exploitable: uses random function;4
+juliet;319;true;true;MethodExec=true ;null;144
+juliet;321;false;false;;Broken testcase - The attacker can choose the password in the fix and thus decrypt the hard-coded secret;37
+juliet;325;false;false;;Code quality issue;34
+juliet;327;false;false;;Encrypts hard-coded information available in the app;34
+juliet;328;false;false;;Broken testcase - Using an insecure hash function to hash a non-sensitive hardcoded string;51
+juliet;329;false;false;;Broken testcase - The IV is constant, but a fresh key is generated, thus an attacker does not gain any information regardless of IV.;17
+juliet;336;false;false;;Broken testcase - setSeed JavaDoc: 'The given seed supplements, rather than replaces, the existing seed. Thus, repeated calls are guaranteed never to reduce randomness.';17
+juliet;338;false;false;;Broken testcase - PRNG not used in security context;34
+juliet;369;false;false;;Code quality issue;1850
+juliet;378;false;false;;Broken testcase - Attacker goal unclear;17
+juliet;379;false;false;;Broken testcase - Attacker goal unclear;17
+juliet;382;false;false;;not deterministically exploitable: uses random function;2
+juliet;382;true;true;Jetty=false Tomcat=false Winstone=true ;null;32
+juliet;383;false;false;;Code quality issue;16
+juliet;390;false;false;;Code quality issue;34
+juliet;395;false;false;;Code quality issue;17
+juliet;396;false;false;;Code quality issue;34
+juliet;397;false;false;;Code quality issue;4
+juliet;398;false;false;;Code quality issue & Source code only;137
+juliet;400;false;false;;not deterministically exploitable: uses random function;37
+juliet;400;true;true;MethodExec=true ;null;1080
+juliet;400;true;true;Jetty=true Tomcat=true Winstone=true ;null;123
+juliet;400;true;true;Jetty=false Tomcat=false Winstone=true ;null;89
+juliet;400;true;true;Jetty=true Tomcat=false Winstone=true ;null;20
+juliet;404;false;false;;Code quality issue;5
+juliet;459;false;false;;Code quality issue;34
+juliet;470;false;false;;not deterministically exploitable: uses random function;12
+juliet;470;true;true;MethodExec=true ;null;324
+juliet;470;true;true;Jetty=false Tomcat=false Winstone=true ;null;90
+juliet;470;true;true;Jetty=true Tomcat=false Winstone=true ;null;18
+juliet;476;false;false;;Code quality issue;198
+juliet;477;false;false;;Code quality issue;68
+juliet;478;false;false;;Code quality issue;17
+juliet;481;false;false;;Code quality issue;17
+juliet;482;false;false;;Code quality issue;17
+juliet;483;false;false;;Code quality issue & Source code only;19
+juliet;484;false;false;;Code quality issue;17
+juliet;486;false;false;;Broken testcase - The attacker cannot change anything besides running the code, which does not lead to a security incident;17
+juliet;491;false;false;;Broken testcase - CWE is not exploitable;2
+juliet;499;false;false;;Broken testcase - Serializable class is never instantiated/used;2
+juliet;500;false;false;;Code quality issue;2
+juliet;506;false;false;;The behavior of good and bad is identical, thus, no real attack can be performed.;116
+juliet;510;false;false;;not deterministically exploitable: uses random function;2
+juliet;510;true;true;MethodExec=true ;null;32
+juliet;511;false;false;;not deterministically exploitable: uses random function;2
+juliet;511;true;true;MethodExec=true ;null;32
+juliet;523;false;false;;not deterministically exploitable: uses random function;1
+juliet;523;true;true;Jetty=false Tomcat=false Winstone=true ;null;13
+juliet;523;true;true;Jetty=true Tomcat=false Winstone=true ;null;3
+juliet;526;false;false;;not deterministically exploitable: uses random function;2
+juliet;526;true;true;Jetty=true Tomcat=false Winstone=true ;null;1
+juliet;526;true;true;Jetty=false Tomcat=false Winstone=true ;null;15
+juliet;526;true;true;MethodExec=true ;null;16
+juliet;533;false;false;;CWE is deprecated and thus these test cases were omitted.;17
+juliet;534;false;false;;CWE is deprecated and thus these test cases were omitted.;17
+juliet;535;false;false;;Broken testcase - The tests are the same as CWE-534, albeit under the name of CWE-535. This might be due to a copy and paste error in the test generation script.;17
+juliet;539;false;false;;Currently unsupported - Needs support for current time handling and arithmetic/logic expressions (future work).;17
+juliet;546;false;false;;Code quality issue & Source code only;85
+juliet;549;false;false;;not deterministically exploitable: uses random function;1
+juliet;549;true;true;Jetty=false Tomcat=false Winstone=true ;null;14
+juliet;549;true;true;Jetty=true Tomcat=false Winstone=true ;null;2
+juliet;561;false;false;;Code quality issue;2
+juliet;563;false;false;;Code quality issue;222
+juliet;566;false;false;;Broken testcase - The query based on the id supplied by the attacker does not have any influence on the output.;37
+juliet;568;false;false;;Code quality issue;4
+juliet;570;false;false;;Code quality issue;16
+juliet;571;false;false;;Code quality issue;16
+juliet;572;false;false;;Code quality issue;17
+juliet;579;false;false;;Code quality issue;1
+juliet;580;false;false;;Code quality issue;2
+juliet;581;false;false;;Code quality issue;4
+juliet;582;false;false;;Code quality issue;2
+juliet;584;false;false;;Code quality issue;17
+juliet;585;false;false;;Code quality issue;2
+juliet;586;false;false;;Code quality issue;17
+juliet;597;false;false;;Code quality issue;17
+juliet;598;false;false;;not deterministically exploitable: uses random function;1
+juliet;598;true;true;Jetty=false Tomcat=false Winstone=true ;null;12
+juliet;598;true;true;Jetty=true Tomcat=false Winstone=true ;null;4
+juliet;600;true;false;Jetty=false Tomcat=false Winstone=false ;null;1
+juliet;601;false;false;;not deterministically exploitable: uses random function;9
+juliet;601;true;true;Jetty=false Tomcat=false Winstone=true ;null;285
+juliet;601;true;true;Jetty=true Tomcat=false Winstone=true ;null;39
+juliet;605;false;false;;Broken testcase - setReuseAddress not called/listening on the same application twice does not make sense;17
+juliet;606;false;false;;not deterministically exploitable: uses random function;12
+juliet;606;true;true;MethodExec=true ;null;324
+juliet;606;true;true;Jetty=true Tomcat=true Winstone=true ;null;108
+juliet;607;false;false;;Code quality issue;2
+juliet;609;false;false;;Code quality issue;2
+juliet;613;false;false;;Currently unsupported - Needs support for current time handling and arithmetic/logic expressions (future work).;17
+juliet;614;false;false;;not deterministically exploitable: uses random function;1
+juliet;614;true;false;Jetty=false Tomcat=false Winstone=false ;null;16
+juliet;615;false;false;;Source code only;17
+juliet;617;false;false;;Code quality issue;34
+juliet;643;false;false;;Broken testcase - Retrieved values not used at all.;444
+juliet;667;false;false;;Code quality issue;1
+juliet;674;true;true;MethodExec=true ;null;2
+juliet;681;false;false;;Code quality issue;51
+juliet;690;false;false;;Code quality issue;296
+juliet;698;false;false;;Broken testcase - Logging a constant string value after redirect statements is neither a flaw nor undefined. The intent of the CWE is different.;17
+juliet;759;false;false;;Broken testcase - Using a hash function to hash a non-sensitive hardcoded string;17
+juliet;760;false;false;;Broken testcase - Using a hash function to hash a non-sensitive hardcoded string;17
+juliet;764;false;false;;Code quality issue;2
+juliet;765;false;false;;Code quality issue;2
+juliet;772;false;false;;Code quality issue;2
+juliet;775;false;false;;Code quality issue;2
+juliet;789;false;false;;not deterministically exploitable: uses random function;14
+juliet;789;true;true;MethodExec=true ;null;376
+juliet;789;true;true;Jetty=true Tomcat=true Winstone=true ;null;108
+juliet;832;false;false;;Code quality issue;2
+juliet;833;true;true;MethodExec=true ;null;3
+juliet;835;true;true;MethodExec=true ;null;6

@@ -1,0 +1,46 @@
+OWASP;89;8;true;true;1;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00102
+OWASP;89;8;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;OWASP_01007
+OWASP;89;8;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;OWASP_00196
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_45_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_13_bad
+juliet;90;1;true;false;-1;;null;CWE90_LDAP_Injection__File_75_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_16_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_17_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_14_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_15_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_13_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_10_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_11_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_05_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_06_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_03_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_04_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_09_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_07_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_08_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_01_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_02_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_31_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_21_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_22_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_52_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_53_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_51_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_54_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_41_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_42_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_45_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_71_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_74_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_72_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_73_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_61_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_67_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_68_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_66_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_81_bad
+juliet;111;1;true;true;0;MethodExec=true ;null;CWE111_Unsafe_JNI__console_01_bad
+juliet;400;4;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_45_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_10_bad
+juliet;600;1;true;false;0;Jetty=false Tomcat=false Winstone=false ;null;CWE600_Uncaught_Exception_in_Servlet__getParameter_01_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_42_bad

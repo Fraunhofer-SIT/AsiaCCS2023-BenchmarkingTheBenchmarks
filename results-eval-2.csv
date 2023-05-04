@@ -1,0 +1,1049 @@
+OWASP;22;4;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02027
+OWASP;22;4;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01642
+OWASP;78;3;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02433
+OWASP;78;3;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00172
+OWASP;89;7;true;false;0;Jetty=false Tomcat=false Winstone=false ;null;OWASP_00102
+OWASP;89;7;true;false;0;Jetty=false Tomcat=false Winstone=false ;null;OWASP_01007
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01832
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01501
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00959
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00012
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00947
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00044
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01568
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01326
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01831
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02472
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00694
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02036
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01242
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00695
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01023
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02299
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01243
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01241
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01902
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02306
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02208
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02037
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_01490
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00021
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_00630
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02305
+OWASP;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;OWASP_02196
+juliet;23;4;true;false;1;MethodExec=false ;null;CWE23_Relative_Path_Traversal__File_45_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__PropertiesFile_68_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_01_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_02_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_05_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_06_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_03_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_04_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_41_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_42_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_31_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_21_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_22_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_13_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_10_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_11_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_16_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_17_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_14_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_15_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_09_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_07_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_08_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_81_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_71_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_74_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_75_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_72_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_73_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_67_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_68_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_66_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_61_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_54_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_52_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_53_bad
+juliet;23;4;true;true;0;MethodExec=true ;null;CWE23_Relative_Path_Traversal__File_51_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_53_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_54_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_61_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_42_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_45_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_51_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_52_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_31_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_41_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_21_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_22_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_75_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_81_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_68_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_66_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_67_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_71_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_72_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_73_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_74_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_17_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_13_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_14_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_15_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_16_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_10_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_11_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_06_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_07_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_08_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_09_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_02_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_03_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_04_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_05_bad
+juliet;36;4;true;true;0;MethodExec=true ;null;CWE36_Absolute_Path_Traversal__File_01_bad
+juliet;80;2;true;false;1;Jetty=false Tomcat=false Winstone=false ;null;CWE80_XSS__CWE182_Servlet_File_13_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_53_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_54_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_51_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_42_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_45_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_31_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_21_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_11_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_16_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_17_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_13_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_14_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_05_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_06_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_07_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_08_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_01_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_02_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_03_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_04_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_09_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_81_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_75_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_66_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_61_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_68_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_21_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_22_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_10_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_11_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_17_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_13_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_14_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_15_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_16_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_01_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_06_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_07_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_08_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_09_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_02_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_03_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_04_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_05_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_66_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_67_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_61_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_68_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_53_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_54_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_51_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_52_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_42_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_45_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_41_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_31_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_81_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_75_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_71_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_72_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_73_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_URLConnection_74_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_45_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_42_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_41_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_54_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_53_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_52_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_51_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_22_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_21_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_31_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_08_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_07_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_06_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_05_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_04_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_03_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_02_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_01_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_09_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_17_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_16_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_15_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_14_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_13_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_11_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_10_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_81_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_68_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_67_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_66_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_61_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_75_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_74_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_73_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_72_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_URLConnection_71_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_31_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_22_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_21_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_16_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_15_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_14_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_17_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_11_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_10_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_05_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_04_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_02_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_09_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_08_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_07_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_06_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_81_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_74_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_73_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_72_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_71_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_75_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_68_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_61_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_67_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_52_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_51_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_54_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_53_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_41_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_45_bad
+juliet;80;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_42_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_52_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_41_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_22_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_10_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_15_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_74_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_71_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_72_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_73_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__Servlet_File_67_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_03_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_01_bad
+juliet;80;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE80_XSS__CWE182_Servlet_File_66_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_41_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_42_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_45_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_31_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_61_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_67_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_68_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_66_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_52_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_53_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_51_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_54_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_81_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_74_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_75_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_72_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_73_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_71_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_01_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_02_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_05_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_06_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_03_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_04_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_09_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_07_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_08_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_21_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_22_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_13_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_10_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_11_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_16_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_17_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_14_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_File_15_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_61_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_45_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_52_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_51_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_54_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_53_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_81_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_67_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_66_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_68_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_74_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_73_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_75_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_72_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_71_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_16_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_15_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_17_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_11_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_14_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_13_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_21_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_05_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_04_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_07_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_06_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_01_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_03_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_02_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_09_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_08_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_10_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_41_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_42_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_22_bad
+juliet;81;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE81_XSS_Error_Message__Servlet_URLConnection_31_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_07_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_06_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_09_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_08_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_03_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_02_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_05_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_04_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_01_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_54_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_53_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_52_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_51_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_68_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_67_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_66_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_61_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_75_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_72_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_71_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_74_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_73_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_81_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_17_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_14_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_13_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_16_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_15_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_10_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_11_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_21_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_22_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_31_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_42_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_45_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_URLConnection_41_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_database_08_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_31_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_22_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_21_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_11_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_13_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_15_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_14_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_17_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_16_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_02_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_01_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_04_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_03_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_06_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_05_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_08_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_07_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_09_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_71_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_73_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_72_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_75_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_74_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_61_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_66_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_68_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_67_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_53_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_54_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_42_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_41_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_45_bad
+juliet;83;2;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_81_bad
+juliet;83;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_10_bad
+juliet;83;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_51_bad
+juliet;83;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_File_52_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_06_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_07_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_04_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_05_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_02_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_03_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_01_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_08_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_09_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_17_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_15_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_16_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_13_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_14_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_11_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_10_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_22_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_21_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_31_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_45_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_42_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_41_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_53_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_54_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_51_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_52_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_68_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_66_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_67_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_61_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_75_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_73_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_74_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_71_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_72_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeBatch_81_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__listen_tcp_executeQuery_41_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__Environment_executeQuery_73_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_54_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_53_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_61_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_68_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_67_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_66_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_74_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_73_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_72_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_71_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_75_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_81_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_16_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_15_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_14_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_13_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_11_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_10_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_17_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_22_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_21_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_31_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_41_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_45_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_42_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_52_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_51_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_05_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_04_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_03_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_02_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_01_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_09_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_08_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_07_bad
+juliet;89;7;true;true;0;MethodExec=true ;null;CWE89_SQL_Injection__File_executeQuery_06_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_61_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_68_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_66_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_67_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_53_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_54_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_51_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_52_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_81_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_75_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_73_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_74_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_71_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_72_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_21_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_22_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_10_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_17_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_15_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_16_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_13_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_14_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_11_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_42_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_41_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_45_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_31_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_08_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_09_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_06_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_07_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_04_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_05_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_02_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_03_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getParameter_Servlet_01_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_31_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_22_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_21_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_17_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_15_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_16_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_13_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_14_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_11_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_10_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_08_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_09_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_06_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_07_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_04_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_05_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_02_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_03_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_01_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_81_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_75_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_73_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_74_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_71_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_72_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_68_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_66_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_67_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_61_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_53_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_54_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_51_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_52_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_45_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_42_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getQueryString_Servlet_41_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_52_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_51_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_54_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_53_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_41_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_45_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_42_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_31_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_22_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_21_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_17_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_16_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_15_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_14_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_13_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_11_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_10_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_09_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_08_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_07_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_06_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_05_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_04_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_03_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_02_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_01_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_81_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_74_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_73_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_72_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_71_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_75_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_61_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_68_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_67_bad
+juliet;90;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE90_LDAP_Injection__getCookies_Servlet_66_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_16_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_17_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_14_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_15_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_13_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_10_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_11_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_05_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_06_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_03_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_04_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_09_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_07_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_08_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_01_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_02_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_31_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_21_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_22_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_52_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_53_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_51_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_54_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_41_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_42_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_45_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_71_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_74_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_75_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_72_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_73_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_61_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_67_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_68_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_66_bad
+juliet;90;1;true;false;0;MethodExec=false ;null;CWE90_LDAP_Injection__File_81_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__URLConnection_11_bad
+juliet;111;1;true;false;0;MethodExec=false ;null;CWE111_Unsafe_JNI__console_01_bad
+juliet;113;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE113_HTTP_Response_Splitting__getCookies_Servlet_addCookieServlet_11_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_15_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_14_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_13_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_11_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_10_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_17_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_16_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_04_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_03_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_02_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_01_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_09_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_08_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_07_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_06_bad
+juliet;209;1;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE209_Information_Leak_Error__printStackTrace_Servlet_05_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_08_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_07_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_09_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_02_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_01_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_04_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_03_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_06_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_05_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_11_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_10_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_13_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_15_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_14_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_17_bad
+juliet;209;1;true;true;0;MethodExec=true ;null;CWE209_Information_Leak_Error__printStackTrace_16_bad
+juliet;315;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE315_Plaintext_Storage_in_Cookie__Servlet_17_bad
+juliet;319;2;true;true;0;MethodExec=true ;null;CWE319_Cleartext_Tx_Sensitive_Info__send_16_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_17_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_15_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_16_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_13_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_14_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_11_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_10_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_08_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_09_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_06_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_07_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_04_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_05_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_02_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_03_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_Runtime_01_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_01_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_02_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_05_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_06_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_03_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_04_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_09_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_07_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_08_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_13_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_10_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_11_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_16_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_17_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_14_bad
+juliet;382;1;true;true;2;Jetty=false Tomcat=false Winstone=true ;null;CWE382_Use_of_System_Exit__Servlet_System_15_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_13_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_11_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_10_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_17_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_16_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_15_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_14_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_02_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_01_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_06_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_05_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_04_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_03_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_09_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_08_bad
+juliet;400;4;true;true;0;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__Servlet_07_bad
+juliet;400;4;true;false;1;MethodExec=false ;null;CWE400_Resource_Exhaustion__File_write_45_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_72_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_71_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_74_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_73_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_75_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_81_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_52_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_51_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_54_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_53_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_67_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_66_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_68_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_61_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__listen_tcp_write_21_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_31_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_45_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_41_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_42_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_11_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_14_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_13_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_16_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_15_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_17_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_10_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_22_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_21_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_01_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_03_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_02_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_05_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_04_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_07_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_06_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_09_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__sleep_File_08_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_74_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_75_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_72_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_73_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_71_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_81_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_52_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_53_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_51_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_54_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_61_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_67_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_68_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_66_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_31_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_41_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_42_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_45_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_13_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_10_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_11_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_16_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_17_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_14_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_15_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_21_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_22_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_01_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_02_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_05_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_06_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_03_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_04_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_09_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_07_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_for_loop_08_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_51_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_52_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_53_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_54_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_61_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_66_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_67_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_68_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_71_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_72_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_73_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_74_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_75_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_81_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_10_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_11_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_13_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_14_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_15_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_16_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_17_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_21_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_22_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_31_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_41_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_42_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_01_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_02_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_03_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_04_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_05_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_06_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_07_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_08_bad
+juliet;400;1;true;true;0;MethodExec=true ;null;CWE400_Resource_Exhaustion__File_write_09_bad
+juliet;470;1;true;false;1;MethodExec=false ;null;CWE470_Unsafe_Reflection__File_10_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__listen_tcp_53_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__connect_tcp_13_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__console_readLine_54_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__console_readLine_11_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_09_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_08_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_07_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_06_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_05_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_04_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_03_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_02_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_01_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_17_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_16_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_15_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_14_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_13_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_11_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_22_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_21_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_31_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_41_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_45_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_42_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_52_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_51_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_54_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_53_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_61_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_68_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_67_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_66_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_74_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_73_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_72_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_71_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_75_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__File_81_bad
+juliet;470;1;true;true;0;MethodExec=true ;null;CWE470_Unsafe_Reflection__URLConnection_16_bad
+juliet;510;1;true;true;0;MethodExec=true ;null;CWE510_Trapdoor__ip_based_logic_09_bad
+juliet;510;1;true;true;0;MethodExec=true ;null;CWE510_Trapdoor__ip_based_logic_13_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_10_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_11_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_14_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_13_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_15_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_01_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_03_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_02_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_04_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_07_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_06_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_09_bad
+juliet;523;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_08_bad
+juliet;523;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_16_bad
+juliet;523;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_17_bad
+juliet;523;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE523_Unprotected_Cred_Transport__Servlet_05_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_11_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_13_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_14_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_15_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_16_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_17_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_01_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_02_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_03_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_04_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_05_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_06_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_07_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_08_bad
+juliet;526;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_09_bad
+juliet;526;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE526_Info_Exposure_Environment_Variables__Servlet_10_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_01_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_02_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_03_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_04_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_05_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_06_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_10_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_11_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_13_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_14_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_15_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_16_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_17_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_07_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_08_bad
+juliet;526;1;true;true;0;MethodExec=true ;null;CWE526_Info_Exposure_Environment_Variables__writeLine_09_bad
+juliet;600;1;true;false;-1;;null;CWE600_Uncaught_Exception_in_Servlet__getParameter_01_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_81_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_31_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_21_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_22_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_10_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_11_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_13_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_14_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_15_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_17_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_01_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_02_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_03_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_04_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_05_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_06_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_07_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_08_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_09_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_71_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_72_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_73_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_74_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_75_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_61_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_66_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_67_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_68_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_51_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_52_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_53_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_54_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_41_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_42_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_81_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_75_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_73_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_74_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_71_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_72_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_68_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_66_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_67_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_61_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_53_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_54_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_51_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_52_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_45_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_42_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_41_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_31_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_22_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_21_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_13_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_14_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_11_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_10_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_17_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_15_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_16_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_02_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_03_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_01_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_08_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_09_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_06_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_07_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_04_bad
+juliet;601;1;true;true;0;Jetty=false Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_URLConnection_05_bad
+juliet;601;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_16_bad
+juliet;601;1;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE601_Open_Redirect__Servlet_File_45_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_52_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_51_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_54_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_53_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_61_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_67_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_66_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_72_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_71_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_74_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_73_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_75_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_68_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_81_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_10_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_11_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_03_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_02_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_05_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_04_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_07_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_06_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_09_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_08_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_21_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_22_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_14_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_13_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_16_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_15_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_17_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_31_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_41_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_42_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_45_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__File_01_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__console_readLine_04_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__console_readLine_45_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__listen_tcp_54_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__listen_tcp_61_bad
+juliet;606;4;true;true;1;MethodExec=true ;null;CWE606_Unchecked_Loop_Condition__connect_tcp_10_bad
+juliet;789;4;true;false;1;MethodExec=false ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_42_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_10_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_08_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_09_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_04_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_05_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_06_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_07_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_01_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_02_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_03_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_21_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_15_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_16_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_17_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_11_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_13_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_14_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_31_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_22_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_41_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_51_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_52_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_53_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_54_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_45_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_61_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_73_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_74_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_75_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_71_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_72_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_66_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_67_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_68_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__File_ArrayList_81_bad
+juliet;789;4;true;true;0;MethodExec=true ;null;CWE789_Uncontrolled_Mem_Alloc__PropertiesFile_ArrayList_54_bad

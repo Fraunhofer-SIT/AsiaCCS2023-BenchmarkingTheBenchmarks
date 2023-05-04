@@ -1,0 +1,767 @@
+<Presets>
+	<AttackPattern id="testcasetimeout">
+		<AttackPatternPreset id="output_timeout"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputTimeout />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="deadlock_timeout">
+		<AttackPatternPreset id="timeout"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputTimeout />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="repeat_input_timeout"  >
+			<RepeatInput count="5" delayms="0" />
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputTimeout />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="hardcodedpassword">
+		<AttackPatternPreset id="Hard_Coded_Password__kerberosKey"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input"></String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring>7e5tc4s3</OutputContainsSubstring>
+				<OutputContainsSubstring>BP@ssw0rd</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="cleartextpassword">
+		<AttackPatternPreset id="cleartext_read_database_password"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">password01</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<ConnectedToDummyDatabaseWithCredentials password="password01" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="cleartext_load_and_write_password"  >
+			<InputParameterAssignments>
+				<InputData>
+					
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring>AP@ssw0rd</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		
+	</AttackPattern>
+	<AttackPattern id="LoadLibrary">
+		<AttackPatternPreset id="LoadLibrary"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring>Code Execution Successfull</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="insecurecookie">
+		<AttackPatternPreset id="insecurecookie"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring>secure=false</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="CWE598_Information_Exposure">
+		<AttackPatternPreset id="CWE598_Information_Exposure_post_password"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsRegex ><![CDATA[<form.*method=\"get\".*>]]></OutputContainsRegex>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="CWE511_check_binary_executed">
+		<AttackPatternPreset id="CWE511_check_binary_executed"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<BinaryExecuted />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="CWE510_spoof_src_ip">
+		<AttackPatternPreset id="welcome_admin"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring >Welcome, admin!</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	
+	<AttackPattern id="URLRedirect">
+		<AttackPatternPreset id="input_url" >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">http://redirect123123.com</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<URLRequestResponseContainsHeader reference="request0" headerName="Location">http://redirect123123.com</URLRequestResponseContainsHeader>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="ResourceExcaustion">
+		<AttackPatternPreset id="large_file_size"  >
+		<!-- write "Hello" to a file n times -->
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">10001</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputExceedsSize  size="50000"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="input_to_file"  >
+		<!-- write "Hello" to a file n times -->
+			<InputParameterAssignments>
+				<InputData>
+					<Base64Data id="Input" repeat="1024">SGVsbG8K</Base64Data>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputExceedsSize  size="5000"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="process_out_of_memory"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">2147483647</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutOfMemory/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+
+		
+		<AttackPatternPreset id="output_timeout"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">999999999999</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<ExecutionDurationTimeout timeout="30"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		
+	</AttackPattern>
+	<AttackPattern id="exit_code_1" >
+		<AttackPatternPreset id="exit_code_1"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">nothing</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<ExitCode code="1"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="CommandInjection">
+		<!-- This is only for OWASP benchmarks. 
+		Applets susceptible to Command injection will execute a script called "insecureScript.sh"
+		It will echo the first argument
+		  -->
+		
+		<AttackPatternPreset id="owasp_insecure_shellscript" >
+			<!-- Attack Variables are replaced during exploit generation -->
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">examplearg</String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">$(insecureCmd.sh)</String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">$(insecureCmd.sh)</String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">$(/usr/src/poc/insecureCmd.sh)</String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">$(/usr/src/poc/insecureCmd.sh)</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<!-- the shell script will echo the following line. if it is found in the output, the shell has been executed.-->
+				<OutputContainsSubstring >Your original string</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		
+		<AttackPatternPreset id="inject_cat">
+			<!-- Attack Variables are replaced during exploit generation -->
+			<AttackVariables>
+				<Variable id="file" type="filepath" />
+			</AttackVariables>
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">;cat *file*" </String>
+				</InputData>
+				<InputData>
+					<String id="Input">$(cat *file*) </String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsLineOfFile filename="*file*"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="inject_delete">
+			<AttackVariables>
+				<Variable id="file" type="filepath" />
+			</AttackVariables>
+			<InputParameterAssignments>
+				<InputData>
+					<String urlencode="false" id="Input">;rm *file* </String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">;rm *file*" </String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">$(rm *file*) </String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">;rm *file* </String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">;rm *file*" </String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">$(rm *file*) </String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<MissingFile filename="*file*"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="PathTraversal">
+	<!-- OWASP path traversal. a file object is created and its path is printed, but 
+		nothing is written to the file-->
+		<AttackPatternPreset id="owasp_output_file_access">
+			<AttackVariables>
+				<Variable id="file" type="filepath" />
+			</AttackVariables>
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">../../../*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input">../../../../*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input">*file*</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring><![CDATA[Access to file: '..&#x2f;..&#x2f;..&#x2f;tmp&#x2f;textfile.txt&#x2f;Test.txt' created.]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[Access to file: '&#x2f;tmp&#x2f;textfile.txt' created.]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[Access to file: '&#x2f;usr&#x2f;src&#x2f;poc&#x2f;testfiles&#x2f;..&#x2f;..&#x2f;..&#x2f;..&#x2f;tmp&#x2f;textfile.txt' created.]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[Access to file: '&#x2f;usr&#x2f;src&#x2f;poc&#x2f;testfiles&#x2f;..&#x2f;..&#x2f;..&#x2f;..&#x2f;..&#x2f;tmp&#x2f;textfile.txt' created.]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[Now ready to write to file: &#x2f;usr&#x2f;src&#x2f;poc&#x2f;testfiles&#x2f;..&#x2f;..&#x2f;..&#x2f;&#x2f;tmp&#x2f;textfile.txt]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[Now ready to write to file: &#x2f;usr&#x2f;src&#x2f;poc&#x2f;testfiles&#x2f;..&#x2f;..&#x2f;..&#x2f;..&#x2f;&#x2f;tmp&#x2f;textfile.txt]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<!--vulnerability that constructs a relative path.
+		In Juliet, the path is relative to /home/user/uploads/
+		-->
+		<AttackPatternPreset id="output_file_relative">
+			<AttackVariables>
+				<Variable id="file" type="filepath" />
+			</AttackVariables>
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input" urlencode="false">../../../*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input" urlencode="false">../../../../*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input" urlencode="true">../../../*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input" urlencode="true">../../../../*file*</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsLineOfFile filename="*file*"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+
+		
+		<!-- path traversal vulnerability that ouputs file at path -->
+		<AttackPatternPreset id="output_file_absolute">
+			<AttackVariables>
+				<Variable id="file" type="filepath" />
+			</AttackVariables>
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input" urlencode="true">*file*</String>
+				</InputData>
+				<InputData>
+					<String id="Input" urlencode="true">*file*</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsLineOfFile filename="*file*"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		
+		<AttackPatternPreset id="output_owasp_safe_file">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">unused</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+			<!-- todo: this path should be relative somehow -->
+				<OutputContainsLineOfFile filename="/home/naeumann/Desktop/benchmarkingthebenchmarks/Code/RunExploits/testfiles/moresafe"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	
+	<AttackPattern id="MissingPasswordMasking">
+		<AttackPatternPreset id="password_type_text">
+			<InputParameterAssignments>
+				<InputData>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring ><![CDATA[name="password" type="text"]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="XPathInjection">
+		<AttackPatternPreset id="xpath_owasp">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input"><![CDATA[' or 1=1 or 'a'='a]]></String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring ><![CDATA[johnwatson@sh.com]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="LDAPInjection">
+		<AttackPatternPreset id="ldap_owasp">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input"><![CDATA[*)(cn=*))(|(cn=*]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA[*]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA[*)(dc=apache)(dc=org]]></String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring >Mr Unknown</OutputContainsSubstring>
+				<OutputContainsSubstring >The streetz 4 Ms bar</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="SQLInjection">
+		<AttackPatternPreset id="sqli_owasp_update_user">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="InitQuery">create table if not exists test (id INTEGER PRIMARY KEY, status VARCHAR(50));INSERT INTO test (id,status) VALUES (0,'initialstatus')</String>
+					<String id="Input">';UPDATE/**/test/**/set/**/status='updated'/**/where/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists test (id INTEGER PRIMARY KEY, status VARCHAR(50));INSERT INTO test (id,status) VALUES (0,'initialstatus')</String>
+					<String id="Input" urlencode="true">';UPDATE/**/test/**/set/**/status='updated'/**/where/**/''='</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<SqlQueryResultEquals query="select status from users where id=0" column="status" expectedResult="updated" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	
+		<AttackPatternPreset id="owasp_insert">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input" urlencode="true">'+'hello'+'world'+'</String>
+				</InputData>
+				<InputData>
+					<String id="Input" urlencode="false">'+'hello'+'world'+'</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<SqlQueryResultEquals query="select * from users;" column="password" expectedResult="helloworld" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="sqli_user_password_equals">
+			<InputParameterAssignments>
+				<InputData>					
+					<String id="InitQuery"></String>
+					<String id="Input">'/**/or/**/''='</String>
+				</InputData>
+				<InputData>					
+					<String id="InitQuery"></String>
+					<!--double quotes to escape if this is databaseinput-->
+					<String id="Input">''/**/or/**/''''=''</String>
+				</InputData>
+				<InputData>					
+					<String id="InitQuery"></String>
+					<String id="Input" urlencode="true">'/**/or/**/''='</String>
+				</InputData>
+				<InputData>					
+					<String id="InitQuery"></String>
+					<!--double quotes to escape if this is databaseinput-->
+					<String id="Input" urlencode="true">''/**/or/**/''''=''</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<!-- this is the password of a user entry in the OWASP USERS table-->
+				<OutputContainsSubstring><![CDATA[B3nchM3rk]]></OutputContainsSubstring>
+				<!-- this is the name of a user entry in the OWASP USERS table-->
+				<OutputContainsSubstring><![CDATA[User01]]></OutputContainsSubstring>
+				<!-- Character entity encoding of {USERID=0} -->
+				<OutputContainsSubstring><![CDATA[&#x7b;USERID&#x3d;0&#x7d;]]></OutputContainsSubstring>
+				<OutputContainsSubstring><![CDATA[User03]]></OutputContainsSubstring>
+				<!-- if the output contains the string 00, this likely means that a testcase has output resultSet.getRow(). -->
+				<OutputContainsSubstring><![CDATA[00
+]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="sqli_call_procedure">
+		<InputParameterAssignments>
+				<InputData>
+					<String id="InitQuery">CREATE PROCEDURE outputflag() READS SQL DATA DYNAMIC RESULT SETS 1 BEGIN ATOMIC DECLARE resultSet SCROLL CURSOR WITH RETURN FOR SELECT 1000+888 FROM EMPLOYEE/semicolon/ OPEN resultSet/semicolon/END/semicolon/</String>
+					<String id="Input">outputflag()</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring>1888</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="sqli_insert_user_hsql">
+			<InputParameterAssignments>
+				<!--hsql-->
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY, username varchar(50), password varchar(50),PRIMARY KEY (userid))</String>
+					<String id="Input">';/**/INSERT/**/INTO/**/USERS/**/(USERNAME,PASSWORD)/**/values('newuser','newpassword');SELECT/**/*/**/FROM/**/USERS/**/WHERE/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY, username varchar(50), password varchar(50),PRIMARY KEY (userid))</String>
+					<String id="Input">";/**/INSERT/**/INTO/**/USERS/**/(USERNAME,PASSWORD)/**/values('newuser','newpassword');SELECT/**/*/**/FROM/**/USERS/**/WHERE/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY, username varchar(50), password varchar(50),PRIMARY KEY (userid))</String>
+					<String id="Input">'; INSERT INTO USERS (USERNAME,PASSWORD) VALUES('newuser','newpassword');SELECT * FROM USERS WHERE ''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY, username varchar(50), password varchar(50),PRIMARY KEY (userid))</String>
+					<String id="Input">"; INSERT INTO USERS (USERNAME,PASSWORD) VALUES('newuser','newpassword');SELECT * FROM USERS WHERE ''='</String>
+				</InputData>
+				 <!--sqlite-->
+				 <InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (id INTEGER PRIMARY KEY, username TEXT, password TEXT)</String>
+					<String id="Input">';/**/INSERT/**/INTO/**/USERS/**/(USERNAME,PASSWORD)/**/values('newuser','newpassword');SELECT/**/*/**/FROM/**/USERS/**/WHERE/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (id INTEGER PRIMARY KEY, username TEXT, password TEXT)</String>
+					<String id="Input">";/**/INSERT/**/INTO/**/USERS/**/(USERNAME,PASSWORD)/**/values('newuser','newpassword');SELECT/**/*/**/FROM/**/USERS/**/WHERE/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (id INTEGER PRIMARY KEY, username TEXT, password TEXT)</String>
+					<String id="Input">'; INSERT INTO USERS (USERNAME,PASSWORD) VALUES('newuser','newpassword');SELECT * FROM USERS WHERE ''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">CREATE TABLE IF NOT EXISTS USERS (id INTEGER PRIMARY KEY, username TEXT, password TEXT)</String>
+					<String id="Input">"; INSERT INTO USERS (USERNAME,PASSWORD) VALUES('newuser','newpassword');SELECT * FROM USERS WHERE ''='</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<SqlQueryResultEquals query="select PASSWORD from users where username='newuser'" column="PASSWORD" expectedResult="newpassword" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		
+		<AttackPatternPreset id="sqli_drop_table">
+			<InputParameterAssignments>
+				<!--hsql-->
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">';/**/drop/**/table/**/canarytable/**/;select/**/*/**/from/**/canarytableB/**/where/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">';/**/drop/**/table/**/canarytable/**/--</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">'; drop table canarytable -- </String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">"; drop table canarytable -- </String>
+				</InputData>
+				 <!--sqlite-->
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (id INTEGER PRIMARY KEY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">';/**/drop/**/table/**/canarytable/**/;select/**/*/**/from/**/canarytableB/**/where/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (id INTEGER PRIMARY KEY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">';/**/drop/**/table/**/canarytable/**/--</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (id INTEGER PRIMARY KEY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">'; drop table canarytable -- </String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists canarytable (id INTEGER PRIMARY KEY);create table if not exists canarytableB (userid int NOT NULL GENERATED BY DEFAULT AS IDENTITY)</String>
+					<String id="Input">"; drop table canarytable -- </String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<MissingSqlTable deletetablename="canarytable" existtablename="canarytableB" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="sqli_juliet_increment_user">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="InitQuery">drop table if exists users;create table users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER DEFAULT 0);INSERT OR IGNORE INTO users (id,name, hitcount) VALUES (1,'testuser', 0)</String>
+					<String id="Input">'/**/or/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">drop table if exists users;create table users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER DEFAULT 0);INSERT OR IGNORE INTO users (id,name, hitcount) VALUES (1,'testuser', 0)</String>
+					<String id="Input">' or ''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">drop table if exists users;create table users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER DEFAULT 0);INSERT OR IGNORE INTO users (id,name, hitcount) VALUES (1,'testuser', 0)</String>
+					<String id="Input">''/**/or/**/''''=''</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">drop table if exists users;create table users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER DEFAULT 0);INSERT OR IGNORE INTO users (id,name, hitcount) VALUES (1,'testuser', 0)</String>
+					<String id="Input">'' or ''''=''</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<SqlQueryResultEquals query="select hitcount from users where name='testuser'" column="hitcount" expectedResult="1" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="sqli_juliet_update_user">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="InitQuery">create table if not exists users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER, status TEXT);INSERT OR IGNORE INTO users (id,name, hitcount, status) VALUES (0,'testuser', 0, 'initialstatus')</String>
+					<String id="Input">'/**/or/**/''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER, status TEXT);INSERT OR IGNORE INTO users (id,name, hitcount, status) VALUES (0,'testuser', 0, 'initialstatus')</String>
+					<String id="Input">' or ''='</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER, status TEXT);INSERT OR IGNORE INTO users (id,name, hitcount, status) VALUES (0,'testuser', 0, 'initialstatus')</String>
+					<String id="Input">''/**/or/**/''''=''</String>
+				</InputData>
+				<InputData>
+					<String id="InitQuery">create table if not exists users (id INTEGER PRIMARY KEY, name TEXT, hitcount INTEGER, status TEXT);INSERT OR IGNORE INTO users (id,name, hitcount, status) VALUES (0,'testuser', 0, 'initialstatus')</String>
+					<String id="Input">'' or ''''=''</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<SqlQueryResultEquals query="select status from users where name='testuser'" column="status" expectedResult="updated" />
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+
+	<AttackPattern id="XSS">
+		<AttackPatternPreset id="xss_break_tag">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input"><![CDATA[<script >alert()</script >]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA[<script%20>alert()</script%20>]]></String>
+				</InputData>
+				<InputData>
+					<!-- <script> is replaced once-->
+					<String id="Input"><![CDATA[<script<script>>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA['><script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA["><script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String id="Input"><![CDATA[<script >alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<!--<img src=\"" + data + "\">-->
+					<String id="Input"><![CDATA["/><script>alert()</script><img src=\"]]></String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsUnescapedHTML><![CDATA[<script>alert()</script>]]></OutputContainsUnescapedHTML>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+		<AttackPatternPreset id="xss_full">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input"><![CDATA[<html><body><script>alert()</script></body></html>]]></String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsUnescapedHTML><![CDATA[<script>alert()</script>]]></OutputContainsUnescapedHTML>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="OpenRedirect">
+		<AttackPatternPreset id="openredirect_setheader">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">http://google.com/</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<URLRequestResponseContainsHeader headerName="Location"><![CDATA[Location=http://google.com/]]></URLRequestResponseContainsHeader>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="UnsafeReflection">
+		<AttackPatternPreset id="unsafe_reflection_input_classname">
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">java.lang.Object</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring><![CDATA[java.lang.Object@]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="HTTPResponseSplitting">
+		<AttackPatternPreset id="responsesplit">
+			<InputParameterAssignments>
+				<InputData>
+					<String urlencode="false" id="Input">value&#13;Splitting-Header: vulnerable&#13;Content-Length: 25&#13;&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">value&#13;Splitting-Header: vulnerable&#13;Content-Length: 25&#13;&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">value\&#13;Splitting-Header: vulnerable\&#13;Content-Length: 25\&#13;\&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">value\&#13;Splitting-Header: vulnerable\&#13;Content-Length: 25\&#13;\&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String urlencode="false" id="Input">value\\&#13;Splitting-Header: vulnerable\\&#13;Content-Length: 25\\&#13;\\&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+				<InputData>
+					<String urlencode="true" id="Input">value\\&#13;Splitting-Header: vulnerable\\&#13;Content-Length: 25\\&#13;\\&#13;<![CDATA[<script>alert()</script>]]></String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsUnescapedHTML source="URLRequestResponse" ><![CDATA[<script>alert()</script>]]></OutputContainsUnescapedHTML>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="StackTraceCWE600" >
+		<AttackPatternPreset id="StackTraceUnsupportedOperationException">	
+			<InputParameterAssignments>
+				<InputData>
+					<String urlencode="false" id="Input">unused</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring >java.lang.UnsupportedOperationException</OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="FormUnprotectedCredentials" >
+		<AttackPatternPreset id="FormUnprotectedCredentials">
+			<InputParameterAssignments>
+				<InputData>
+					<String urlencode="false" id="Input">unused</String>
+				</InputData>
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputContainsSubstring ><![CDATA[<form action='http://hostname.com/j_security_check' method='post'>]]></OutputContainsSubstring>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	
+	<AttackPattern id="BufferOverflowWithSpecifiedLength" >
+	</AttackPattern>
+	
+	<AttackPattern id="ExposedPath" >
+		<AttackPatternPreset id="path_var_exposed"  >
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">unused</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<OutputIncludesEnvironmentVar name="PATH"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+	<AttackPattern id="ResourceExhaustionHello" >
+	</AttackPattern>
+
+	<AttackPattern id="dll" >
+	</AttackPattern>
+
+	<AttackPattern id="LargeNumberInputTimeout">
+		<AttackPatternPreset id="input_timeout"  >
+		<!-- write "Hello" to a file n times -->
+			<InputParameterAssignments>
+				<InputData>
+					<String id="Input">1000000</String>
+				</InputData> 
+			</InputParameterAssignments>
+			<SuccessfulAttackIndicators>
+				<ExecutionDurationTimeout  timeout="30"/>
+			</SuccessfulAttackIndicators>
+		</AttackPatternPreset>
+	</AttackPattern>
+</Presets>

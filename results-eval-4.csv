@@ -1,0 +1,5 @@
+OWASP;22;4;true;false;0;Tomcat=false Winstone=false ;null;OWASP_00264
+juliet;83;2;true;true;0;Jetty=true Tomcat=false Winstone=true ;null;CWE83_XSS_Attribute__Servlet_PropertiesFile_13_bad
+juliet;90;1;true;true;0;MethodExec=true ;null;CWE90_LDAP_Injection__File_75_bad
+juliet;400;4;true;true;1;Jetty=true Tomcat=true Winstone=true ;null;CWE400_Resource_Exhaustion__getCookies_Servlet_for_loop_09_bad
+juliet;606;4;true;true;1;Jetty=true Tomcat=true Winstone=true ;null;CWE606_Unchecked_Loop_Condition__getCookies_Servlet_42_bad
